@@ -1,0 +1,31 @@
+:root {
+    /*Declaração de variáveis*/
+    --cor-letra-h1: #5000B0;
+    --cor-letra-h2: #505050;
+    --fonte-padrao: 'Arial' , sans-serif;
+    --cor-fundo: #100040;
+    --cor-fundo-div: #ffffff;
+    --img-width: 150px;
+    --img-heigth:auto
+}
+body {
+    font-family: var(--fonte-padrao);
+    background-color: var(--cor-fundo);
+} 
+
+h1 {
+    color: var(--cor-letra-h1);
+}
+
+div {
+    /* 100% viewport width */
+    width: 100vw;
+    /* 100% viewport height */
+    height: 100vw;
+    background-color: var(--cor-fundo-div);
+}
+
+img {
+    width: var(--img-width);
+    height: var(--img-heigth);
+}
